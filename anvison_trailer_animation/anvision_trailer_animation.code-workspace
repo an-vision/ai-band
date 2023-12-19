@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../anvision"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "anvision"
+	}
+}

@@ -1,0 +1,30 @@
+
+.option {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  #option1 {
+    background-color: lightblue;
+  }
+
+  #option2 {
+    background-color: lightcoral;
+  }
+
+  .selected {
+    background-color: lightgreen;
+    transform: scale(0.8);
+  }
+  .produkt_selection {
+    margin-top: 10px; /* Ändere den Wert nach Bedarf */
+    width: 200px; /* Passe die Breite nach Bedarf an */
+}
