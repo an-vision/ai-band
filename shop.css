@@ -1,4 +1,8 @@
 
+body{
+  background-color: black;
+}
+
 .option {
     width: 200px;
     height: 100px;

@@ -383,3 +383,57 @@ footer button.show{
     width: 10vh;
     height: 10vh;
 }
+
+/* NAV-BAR */
+
+#logo {
+    width: 50px;
+    background-color: transparent;
+
+}
+   
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99; 
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.7%;
+    border-radius: 45px;
+    height: 7.6vh;
+    width: 38vw;
+    background-color: #ffffffe7;
+    backdrop-filter: blur(10px);
+    padding: 0px 5px;
+}
+
+.secondary-button {
+    color: white; 
+    background-color: blue;
+    border: none;
+    border-radius: 20px; 
+    padding: 1vh 2vh; 
+    cursor: pointer;
+    margin-right: 15px;
+    background-clip: padding-box;
+    overflow: hidden; 
+  }
+  
+  .secondary-button:hover {
+      background-color: #5277e4;
+  }
+
+.nav-links > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.nav-links > a:hover{
+    color: gray;
+    font-size: 20px;
+}
