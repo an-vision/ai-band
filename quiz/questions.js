@@ -5,7 +5,7 @@ let questions = [
     numb: 1,
     question: "Welche Farbe hat das AI Band?",
     answer: "weiß/silber",
-    options: ["weiß/silber", "schwarz", "grün"],
+    options: ["weiß/silber", "schwarz", "grün"],   
   },
   {
     numb: 2,
