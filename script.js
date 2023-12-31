@@ -56,133 +56,154 @@ render();
 function files(index) {
 var data = `
 
-AI-Band/0001.png
-AI-Band/0002.png
-AI-Band/0003.png
-AI-Band/0004.png
-AI-Band/0005.png
-AI-Band/0006.png
-AI-Band/0007.png
-AI-Band/0008.png
-AI-Band/0009.png
-AI-Band/0010.png
-AI-Band/0011.png
-AI-Band/0012.png
-AI-Band/0013.png
-AI-Band/0014.png
-AI-Band/0015.png
-AI-Band/0016.png
-AI-Band/0017.png
-AI-Band/0018.png
-AI-Band/0019.png
-AI-Band/0020.png
-AI-Band/0021.png
-AI-Band/0022.png
-AI-Band/0023.png
-AI-Band/0024.png
-AI-Band/0025.png
-AI-Band/0026.png
-AI-Band/0027.png
-AI-Band/0028.png
-AI-Band/0029.png
-AI-Band/0030.png
-AI-Band/0031.png
-AI-Band/0032.png
-AI-Band/0033.png
-AI-Band/0034.png
-AI-Band/0035.png
-AI-Band/0036.png
-AI-Band/0037.png
-AI-Band/0038.png
-AI-Band/0039.png
-AI-Band/0040.png
-AI-Band/0041.png
-AI-Band/0042.png
-AI-Band/0043.png
-AI-Band/0044.png
-AI-Band/0045.png
-AI-Band/0046.png
-AI-Band/0047.png
-AI-Band/0048.png
-AI-Band/0049.png
-AI-Band/0050.png
-AI-Band/0051.png
-AI-Band/0052.png
-AI-Band/0053.png
-AI-Band/0054.png
-AI-Band/0055.png
-AI-Band/0056.png
-AI-Band/0057.png
-AI-Band/0058.png
-AI-Band/0059.png
-AI-Band/0060.png
+AI-Band Images/0001.png
+AI-Band Images/0002.png
+AI-Band Images/0003.png
+AI-Band Images/0004.png
+AI-Band Images/0005.png
+AI-Band Images/0006.png
+AI-Band Images/0007.png
+AI-Band Images/0008.png
+AI-Band Images/0001.png
+AI-Band Images/0009.png
+AI-Band Images/0010.png
+AI-Band Images/0011.png
+AI-Band Images/0012.png
+AI-Band Images/0013.png
+AI-Band Images/0014.png
+AI-Band Images/0015.png
+AI-Band Images/0016.png
+AI-Band Images/0017.png
+AI-Band Images/0018.png
+AI-Band Images/0019.png
+AI-Band Images/0020.png
+AI-Band Images/0021.png
+AI-Band Images/0022.png
+AI-Band Images/0023.png
+AI-Band Images/0024.png
+AI-Band Images/0025.png
+AI-Band Images/0026.png
+AI-Band Images/0027.png
+AI-Band Images/0028.png
+AI-Band Images/0029.png
+AI-Band Images/0030.png
+AI-Band Images/0031.png
+AI-Band Images/0032.png
+AI-Band Images/0033.png
+AI-Band Images/0034.png
+AI-Band Images/0035.png
+AI-Band Images/0036.png
+AI-Band Images/0037.png
+AI-Band Images/0038.png
+AI-Band Images/0039.png
+AI-Band Images/0040.png
+AI-Band Images/0041.png
+AI-Band Images/0042.png
+AI-Band Images/0043.png
+AI-Band Images/0044.png
+AI-Band Images/0045.png
+AI-Band Images/0046.png
+AI-Band Images/0047.png
+AI-Band Images/0048.png
+AI-Band Images/0049.png
+AI-Band Images/0050.png
+AI-Band Images/0051.png
+AI-Band Images/0052.png
+AI-Band Images/0053.png
+AI-Band Images/0054.png
+AI-Band Images/0055.png
+AI-Band Images/0056.png
+AI-Band Images/0057.png
+AI-Band Images/0058.png
+AI-Band Images/0059.png
+AI-Band Images/0060.png
+AI-Band Images/0061.png
+AI-Band Images/0062.png
+AI-Band Images/0063.png
+AI-Band Images/0064.png
+AI-Band Images/0065.png
+AI-Band Images/0066.png
+AI-Band Images/0067.png
+AI-Band Images/0068.png
+AI-Band Images/0069.png
+AI-Band Images/0070.png
+AI-Band Images/0071.png
+AI-Band Images/0072.png
+AI-Band Images/0073.png
+AI-Band Images/0074.png
+AI-Band Images/0075.png
+AI-Band Images/0076.png
+AI-Band Images/0077.png
+AI-Band Images/0078.png
+AI-Band Images/0079.png
+AI-Band Images/0080.png
+AI-Band Images/0081.png
+AI-Band Images/0082.png
+AI-Band Images/0083.png
+AI-Band Images/0084.png
+AI-Band Images/0085.png
+AI-Band Images/0086.png
+AI-Band Images/0087.png
+AI-Band Images/0088.png
+AI-Band Images/0089.png
+AI-Band Images/0090.png
+AI-Band Images/0091.png
+AI-Band Images/0092.png
+AI-Band Images/0093.png
+AI-Band Images/0094.png
+AI-Band Images/0095.png
+AI-Band Images/0096.png
+AI-Band Images/0097.png
+AI-Band Images/0098.png
+AI-Band Images/0099.png
+AI-Band Images/0100.png
+AI-Band Images/0101.png
+AI-Band Images/0102.png
+AI-Band Images/0103.png
+AI-Band Images/0104.png
+AI-Band Images/0105.png
+AI-Band Images/0106.png
+AI-Band Images/0107.png
+AI-Band Images/0108.png
+AI-Band Images/0109.png
+AI-Band Images/0110.png
+AI-Band Images/0111.png
+AI-Band Images/0112.png
+AI-Band Images/0113.png
+AI-Band Images/0114.png
+AI-Band Images/0115.png
+AI-Band Images/0116.png
+AI-Band Images/0117.png
+AI-Band Images/0118.png
+AI-Band Images/0119.png
+AI-Band Images/0120.png
+AI-Band Images/0121.png
+AI-Band Images/0122.png
+AI-Band Images/0123.png
+AI-Band Images/0124.png
+AI-Band Images/0125.png
+AI-Band Images/0126.png
+AI-Band Images/0127.png
+AI-Band Images/0128.png
+AI-Band Images/0129.png
+AI-Band Images/0130.png
+AI-Band Images/0131.png
+AI-Band Images/0132.png
+AI-Band Images/0133.png
+AI-Band Images/0134.png
+AI-Band Images/0135.png
+AI-Band Images/0136.png
+AI-Band Images/0137.png
+AI-Band Images/0138.png
+AI-Band Images/0139.png
+AI-Band Images/0140.png
 
-AI-Band/0001.png
-AI-Band/0002.png
-AI-Band/0003.png
-AI-Band/0004.png
-AI-Band/0005.png
-AI-Band/0006.png
-AI-Band/0007.png
-AI-Band/0008.png
-AI-Band/0009.png
-AI-Band/0010.png
-AI-Band/0011.png
-AI-Band/0012.png
-AI-Band/0013.png
-AI-Band/0014.png
-AI-Band/0015.png
-AI-Band/0016.png
-AI-Band/0017.png
-AI-Band/0018.png
-AI-Band/0019.png
-AI-Band/0020.png
-AI-Band/0021.png
-AI-Band/0022.png
-AI-Band/0023.png
-AI-Band/0024.png
-AI-Band/0025.png
-AI-Band/0026.png
-AI-Band/0027.png
-AI-Band/0028.png
-AI-Band/0029.png
-AI-Band/0030.png
-AI-Band/0031.png
-AI-Band/0032.png
-AI-Band/0033.png
-AI-Band/0034.png
-AI-Band/0035.png
-AI-Band/0036.png
-AI-Band/0037.png
-AI-Band/0038.png
-AI-Band/0039.png
-AI-Band/0040.png
-AI-Band/0041.png
-AI-Band/0042.png
-AI-Band/0043.png
-AI-Band/0044.png
-AI-Band/0045.png
-AI-Band/0046.png
-AI-Band/0047.png
-AI-Band/0048.png
-AI-Band/0049.png
-AI-Band/0050.png
-AI-Band/0051.png
-AI-Band/0052.png
-AI-Band/0053.png
-AI-Band/0054.png
-AI-Band/0055.png
-AI-Band/0056.png
-AI-Band/0057.png
-AI-Band/0058.png
-AI-Band/0059.png
-AI-Band/0060.png
 
 `;
 return data.split("\n")[index];
 }
 
-const frameCount = 120;
+const frameCount = 140;
 
 const images = [];
 const imageSeq = {
