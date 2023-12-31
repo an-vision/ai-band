@@ -1,3 +1,28 @@
+function lazyLoadImages() {
+  const imageObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        img.src = img.dataset.src;
+        imageObserver.unobserve(img);
+      }
+    });
+  });
+
+  for (let i = 0; i < frameCount; i++) {
+    const img = new Image();
+    img.dataset.src = files(i);
+    imageObserver.observe(img);
+  }
+}
+
+// Rufen Sie lazyLoadImages auf, wenn die Seite geladen ist
+document.addEventListener('DOMContentLoaded', () => {
+  lazyLoadImages();
+  loco();
+  canvas();
+});
+
 
 
 
