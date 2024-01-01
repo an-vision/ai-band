@@ -26,7 +26,7 @@ start_btn.onclick = () => {
 }
 
 
-let timeValue =  20;
+let timeValue =  15;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;

@@ -1,3 +1,17 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const loadingOverlay = document.getElementById('loading-overlay');
+  
+  // Zeige die Ladeanimation
+  loadingOverlay.style.display = 'flex'; // Flexbox für die Mitte der Seite
+  setTimeout(function () {
+    // Verstecke die Ladeanimation nach 4 Sekunden
+    loadingOverlay.style.display = 'none';
+    document.body.classList.add('loaded'); // Füge die Klasse hinzu, um den Inhalt anzuzeigen
+  }, 4000); // 4000 Millisekunden = 4 Sekunden
+});
+
+// scroll animation
+
 function lazyLoadImages() {
   const imageObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
