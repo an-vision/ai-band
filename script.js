@@ -1,27 +1,27 @@
-// // loading animation
-
-// document.addEventListener('DOMContentLoaded', function () {
-//   const loadingOverlay = document.getElementById('loading-overlay');
-
-//   loadingOverlay.style.display = 'flex'; 
-
-//   setTimeout(function () {
-//     loadingOverlay.style.display = 'none';
-//     document.body.classList.add('loaded');
-//   }, 5500); 
-// });
+// loading animation
 
 document.addEventListener('DOMContentLoaded', function () {
-  const loadingWrapper = document.querySelector('.loading-wrapper');
+  const loadingOverlay = document.getElementById('loading-overlay');
 
-  loadingWrapper.style.display = 'flex';
+  loadingOverlay.style.display = 'flex'; 
 
   setTimeout(function () {
-    loadingWrapper.style.display = 'none';
-    document.getElementById('main').style.display = 'block';
+    loadingOverlay.style.display = 'none';
     document.body.classList.add('loaded');
-  }, 5500);
+  }, 5500); 
 });
+
+// document.addEventListener('DOMContentLoaded', function () {
+//   const loadingWrapper = document.querySelector('.loading-wrapper');
+
+//   loadingWrapper.style.display = 'flex';
+
+//   setTimeout(function () {
+//     loadingWrapper.style.display = 'none';
+//     document.getElementById('main').style.display = 'block';
+//     document.body.classList.add('loaded');
+//   }, 5500);
+// });
 
 // scroll animation
 
