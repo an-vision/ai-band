@@ -41,6 +41,7 @@
       transform: rotate(360deg);
     }
   } */
+  
 
   #loading-overlay {
     position: fixed;
@@ -56,7 +57,7 @@
   }
 
   #loading-spinner {
-    border: 8px solid #3498db;
+    border: 8px solid #437f20a4;
     border-top: 8px solid transparent;
     border-radius: 50%;
     width: 50px;
@@ -206,10 +207,6 @@ justify-content: center;
     height: auto;
 }
 
-
-
-
-
   #page7{
     position: relative;
     height: 100vh;
@@ -223,6 +220,7 @@ justify-content: center;
     max-height: 100vh;
     z-index: 99;
 }
+
 #page8{
     position: relative;
     height: 100vh;

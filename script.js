@@ -108,147 +108,150 @@ render();
 function files(index) {
 var data = `
 
-AI-Band Images/0001.png
-AI-Band Images/0002.png
-AI-Band Images/0003.png
-AI-Band Images/0004.png
-AI-Band Images/0005.png
-AI-Band Images/0006.png
-AI-Band Images/0007.png
-AI-Band Images/0008.png
-AI-Band Images/0001.png
-AI-Band Images/0009.png
-AI-Band Images/0010.png
-AI-Band Images/0011.png
-AI-Band Images/0012.png
-AI-Band Images/0013.png
-AI-Band Images/0014.png
-AI-Band Images/0015.png
-AI-Band Images/0016.png
-AI-Band Images/0017.png
-AI-Band Images/0018.png
-AI-Band Images/0019.png
-AI-Band Images/0020.png
-AI-Band Images/0021.png
-AI-Band Images/0022.png
-AI-Band Images/0023.png
-AI-Band Images/0024.png
-AI-Band Images/0025.png
-AI-Band Images/0026.png
-AI-Band Images/0027.png
-AI-Band Images/0028.png
-AI-Band Images/0029.png
-AI-Band Images/0030.png
-AI-Band Images/0031.png
-AI-Band Images/0032.png
-AI-Band Images/0033.png
-AI-Band Images/0034.png
-AI-Band Images/0035.png
-AI-Band Images/0036.png
-AI-Band Images/0037.png
-AI-Band Images/0038.png
-AI-Band Images/0039.png
-AI-Band Images/0040.png
-AI-Band Images/0041.png
-AI-Band Images/0042.png
-AI-Band Images/0043.png
-AI-Band Images/0044.png
-AI-Band Images/0045.png
-AI-Band Images/0046.png
-AI-Band Images/0047.png
-AI-Band Images/0048.png
-AI-Band Images/0049.png
-AI-Band Images/0050.png
-AI-Band Images/0051.png
-AI-Band Images/0052.png
-AI-Band Images/0053.png
-AI-Band Images/0054.png
-AI-Band Images/0055.png
-AI-Band Images/0056.png
-AI-Band Images/0057.png
-AI-Band Images/0058.png
-AI-Band Images/0059.png
-AI-Band Images/0060.png
-AI-Band Images/0061.png
-AI-Band Images/0062.png
-AI-Band Images/0063.png
-AI-Band Images/0064.png
-AI-Band Images/0065.png
-AI-Band Images/0066.png
-AI-Band Images/0067.png
-AI-Band Images/0068.png
-AI-Band Images/0069.png
-AI-Band Images/0070.png
-AI-Band Images/0071.png
-AI-Band Images/0072.png
-AI-Band Images/0073.png
-AI-Band Images/0074.png
-AI-Band Images/0075.png
-AI-Band Images/0076.png
-AI-Band Images/0077.png
-AI-Band Images/0078.png
-AI-Band Images/0079.png
-AI-Band Images/0080.png
-AI-Band Images/0081.png
-AI-Band Images/0082.png
-AI-Band Images/0083.png
-AI-Band Images/0084.png
-AI-Band Images/0085.png
-AI-Band Images/0086.png
-AI-Band Images/0087.png
-AI-Band Images/0088.png
-AI-Band Images/0089.png
-AI-Band Images/0090.png
-AI-Band Images/0091.png
-AI-Band Images/0092.png
-AI-Band Images/0093.png
-AI-Band Images/0094.png
-AI-Band Images/0095.png
-AI-Band Images/0096.png
-AI-Band Images/0097.png
-AI-Band Images/0098.png
-AI-Band Images/0099.png
-AI-Band Images/0100.png
-AI-Band Images/0101.png
-AI-Band Images/0102.png
-AI-Band Images/0103.png
-AI-Band Images/0104.png
-AI-Band Images/0105.png
-AI-Band Images/0106.png
-AI-Band Images/0107.png
-AI-Band Images/0108.png
-AI-Band Images/0109.png
-AI-Band Images/0110.png
-AI-Band Images/0111.png
-AI-Band Images/0112.png
-AI-Band Images/0113.png
-AI-Band Images/0114.png
-AI-Band Images/0115.png
-AI-Band Images/0116.png
-AI-Band Images/0117.png
-AI-Band Images/0118.png
-AI-Band Images/0119.png
-AI-Band Images/0120.png
-AI-Band Images/0121.png
-AI-Band Images/0122.png
-AI-Band Images/0123.png
-AI-Band Images/0124.png
-AI-Band Images/0125.png
-AI-Band Images/0126.png
-AI-Band Images/0127.png
-AI-Band Images/0128.png
-AI-Band Images/0129.png
-AI-Band Images/0130.png
-AI-Band Images/0131.png
-AI-Band Images/0132.png
-AI-Band Images/0133.png
-AI-Band Images/0134.png
-AI-Band Images/0135.png
-AI-Band Images/0136.png
-AI-Band Images/0137.png
-AI-Band Images/0138.png
-AI-Band Images/0139.png
-AI-Band Images/0140.png
+
+AI Band Images/0001-min.png
+AI Band Images/0002-min.png
+AI Band Images/0003-min.png
+AI Band Images/0004-min.png
+AI Band Images/0005-min.png
+AI Band Images/0006-min.png
+AI Band Images/0007-min.png
+AI Band Images/0008-min.png
+AI Band Images/0009-min.png
+AI Band Images/0010-min.png
+AI Band Images/0011-min.png
+AI Band Images/0012-min.png
+AI Band Images/0013-min.png
+AI Band Images/0014-min.png
+AI Band Images/0015-min.png
+AI Band Images/0016-min.png
+AI Band Images/0017-min.png
+AI Band Images/0018-min.png
+AI Band Images/0019-min.png
+AI Band Images/0020-min.png
+AI Band Images/0021-min.png
+AI Band Images/0022-min.png
+AI Band Images/0023-min.png
+AI Band Images/0024-min.png
+AI Band Images/0025-min.png
+AI Band Images/0026-min.png
+AI Band Images/0027-min.png
+AI Band Images/0028-min.png
+AI Band Images/0029-min.png
+AI Band Images/0030-min.png
+AI Band Images/0031-min.png
+AI Band Images/0032-min.png
+AI Band Images/0033-min.png
+AI Band Images/0034-min.png
+AI Band Images/0035-min.png
+AI Band Images/0036-min.png
+AI Band Images/0037-min.png
+AI Band Images/0038-min.png
+AI Band Images/0039-min.png
+AI Band Images/0040-min.png
+AI Band Images/0041-min.png
+AI Band Images/0042-min.png
+AI Band Images/0043-min.png
+AI Band Images/0044-min.png
+AI Band Images/0045-min.png
+AI Band Images/0046-min.png
+AI Band Images/0047-min.png
+AI Band Images/0048-min.png
+AI Band Images/0049-min.png
+AI Band Images/0050-min.png
+AI Band Images/0051-min.png
+AI Band Images/0052-min.png
+AI Band Images/0053-min.png
+AI Band Images/0054-min.png
+AI Band Images/0055-min.png
+AI Band Images/0056-min.png
+AI Band Images/0057-min.png
+AI Band Images/0058-min.png
+AI Band Images/0059-min.png
+AI Band Images/0060-min.png
+AI Band Images/0061-min.png
+AI Band Images/0062-min.png
+AI Band Images/0063-min.png
+AI Band Images/0064-min.png
+AI Band Images/0065-min.png
+AI Band Images/0066-min.png
+AI Band Images/0067-min.png
+AI Band Images/0068-min.png
+AI Band Images/0069-min.png
+AI Band Images/0070-min.png
+AI Band Images/0071-min.png
+AI Band Images/0072-min.png
+AI Band Images/0073-min.png
+AI Band Images/0074-min.png
+AI Band Images/0075-min.png
+AI Band Images/0076-min.png
+AI Band Images/0077-min.png
+AI Band Images/0078-min.png
+AI Band Images/0079-min.png
+AI Band Images/0080-min.png
+AI Band Images/0081-min.png
+AI Band Images/0082-min.png
+AI Band Images/0083-min.png
+AI Band Images/0084-min.png
+AI Band Images/0085-min.png
+AI Band Images/0086-min.png
+AI Band Images/0087-min.png
+AI Band Images/0088-min.png
+AI Band Images/0089-min.png
+AI Band Images/0090-min.png
+AI Band Images/0091-min.png
+AI Band Images/0092-min.png
+AI Band Images/0093-min.png
+AI Band Images/0094-min.png
+AI Band Images/0095-min.png
+AI Band Images/0096-min.png
+AI Band Images/0097-min.png
+AI Band Images/0098-min.png
+AI Band Images/0099-min.png
+AI Band Images/0100-min.png
+AI Band Images/0101-min.png
+AI Band Images/0102-min.png
+AI Band Images/0103-min.png
+AI Band Images/0104-min.png
+AI Band Images/0105-min.png
+AI Band Images/0106-min.png
+AI Band Images/0107-min.png
+AI Band Images/0108-min.png
+AI Band Images/0109-min.png
+AI Band Images/0110-min.png
+AI Band Images/0111-min.png
+AI Band Images/0112-min.png
+AI Band Images/0113-min.png
+AI Band Images/0114-min.png
+AI Band Images/0115-min.png
+AI Band Images/0116-min.png
+AI Band Images/0117-min.png
+AI Band Images/0118-min.png
+AI Band Images/0119-min.png
+AI Band Images/0120-min.png
+AI Band Images/0121-min.png
+AI Band Images/0122-min.png
+AI Band Images/0123-min.png
+AI Band Images/0124-min.png
+AI Band Images/0125-min.png
+AI Band Images/0126-min.png
+AI Band Images/0127-min.png
+AI Band Images/0128-min.png
+AI Band Images/0129-min.png
+AI Band Images/0130-min.png
+AI Band Images/0131-min.png
+AI Band Images/0132-min.png
+AI Band Images/0133-min.png
+AI Band Images/0134-min.png
+AI Band Images/0135-min.png
+AI Band Images/0136-min.png
+AI Band Images/0137-min.png
+AI Band Images/0138-min.png
+AI Band Images/0139-min.png
+AI Band Images/0140-min.png
+
+
+
 
 
 `;
