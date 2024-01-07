@@ -365,8 +365,7 @@ select {
 
   @media screen and (max-width: 600px) {
 
-
-
+  
 
 
   }
@@ -388,10 +387,15 @@ select {
 
     #nav {
         width: 80vw;
+        top: 1.25%;
     }
 
     .nav-links > a {
         font-size: 15px;
+    }
+
+    .secondary-button {
+        height: 2.5vh;
     }
 
   }
