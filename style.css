@@ -409,6 +409,6 @@ select {
 
   @media screen and (max-width: 1024px) and (orientation: portrait) {
     #nav {
-        top: 7.6vh;
+        top: 5%;
     }
 }
