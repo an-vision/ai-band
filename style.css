@@ -5,6 +5,7 @@
 * {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 
@@ -98,10 +99,12 @@
   margin-right: 15px;
   background-clip: padding-box;
   overflow: hidden; 
+  text-decoration: none;
 }
 
 .secondary-button:hover {
     background-color: #5277e4;
+    text-decoration: none;
 }
 
 
