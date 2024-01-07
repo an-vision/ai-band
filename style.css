@@ -90,16 +90,17 @@
 /* NavBAr */
 
 .secondary-button {
-  color: white; 
-  background-color: blue;
-  border: none;
-  border-radius: 20px; 
-  padding: 1vh 2vh; 
-  cursor: pointer;
-  margin-right: 15px;
-  background-clip: padding-box;
-  overflow: hidden; 
-  text-decoration: none;
+    color: white; 
+    background-color: blue;
+    border: none;
+    border-radius: 20px; 
+    padding: 1vh 2vh; 
+    cursor: pointer;
+    margin-right: 15px;
+    background-clip: padding-box;
+    overflow: hidden; 
+    text-decoration: none;
+
 }
 
 .secondary-button:hover {
@@ -366,7 +367,9 @@ select {
   @media screen and (max-width: 600px) {
 
   
-
+    .secondary-button {
+        height: 1vh;
+    }
 
   }
   
@@ -378,6 +381,10 @@ select {
 
     .nav-links > a {
         font-size: 15px;
+    }
+
+    .secondary-button {
+        height: 2.5vh;
     }
 
   }
@@ -399,3 +406,9 @@ select {
     }
 
   }
+
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    #nav {
+        top: 7.6vh;
+    }
+}
