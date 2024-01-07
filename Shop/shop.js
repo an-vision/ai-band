@@ -1,0 +1,1 @@
+window.alert("Leider sind wir zurzeit ausverkauft!")

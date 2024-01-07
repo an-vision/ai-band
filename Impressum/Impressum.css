@@ -13,6 +13,66 @@ body {
     background-color: #f4f4f4;
 }
 
+
+
+/* NavBAr */
+
+.secondary-button {
+    color: white; 
+    background-color: blue;
+    border: none;
+    border-radius: 20px; 
+    padding: 1vh 2vh; 
+    cursor: pointer;
+    margin-right: 15px;
+    background-clip: padding-box;
+    overflow: hidden; 
+    text-decoration: none;
+  }
+  
+  .secondary-button:hover {
+      background-color: #5277e4;
+  }
+  
+  
+  #logo {
+      width: 50px;
+      background-color: transparent;
+  
+  }
+     
+  
+  #nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      z-index: 99; 
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0.7%;
+      border-radius: 45px;
+      height: 7.6vh;
+      width: 38vw;
+      background-color: #2c2525e7;
+      backdrop-filter: blur(10px);
+      padding: 0px 5px;
+  }
+  
+  .nav-links > a {
+      text-decoration: none;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      padding: 15px;
+  }
+  
+  .nav-links > a:hover{
+      color: gray;
+      font-size: 17px;
+  }
+
+
+  /* Impresssum */
 .Impressum {
     width: 80%;
     max-width: 1225px;
@@ -20,6 +80,8 @@ body {
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 5vh;
+    margin-left: 5vh;
 }
 
 .Impressum h1 {

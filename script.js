@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function () {
     loadingOverlay.style.display = 'none';
     document.body.classList.add('loaded');
-  }, 5500); 
+  }, 4500); 
 });
 
 // document.addEventListener('DOMContentLoaded', function () {
