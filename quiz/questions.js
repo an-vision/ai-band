@@ -33,9 +33,9 @@ let questions = [
   },
   {
     numb: 6,
-    question: "Wie viel ist unsere Aktie wert?",
-    answer: "32,87€",
-    options: ["40,65€", "32,87€", "29,25€"],
+    question: "Wie heißt der integrierte Sprachasitent?",
+    answer: "Gordon",
+    options: ["Siri", "Alexa", "Gordon"],
   },
   {
     numb: 7,
@@ -59,7 +59,7 @@ let questions = [
     numb: 10,
     question: "In welchem Land produzieren wir?",
     answer: "Deutschland", 
-    options: ["Afrika", "China", "Deutschland"],
+    options: ["Indien", "China", "Deutschland"],
   },
   {
     numb: 11,

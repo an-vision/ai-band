@@ -196,6 +196,10 @@ function showResult(){
         let scoreTag = '<span>Perfekt! 😁, du hast '+ userScore +' von '+ questions.length +' Punkten erreicht</span>';
         scoreText.innerHTML = scoreTag;  
     }
+    else if(userScore > 9){ 
+        let scoreTag = '<span>Gut! 😗, du hast '+ userScore +' von '+ questions.length +' Punkten erreicht</span>';
+        scoreText.innerHTML = scoreTag;
+    }
     else if(userScore > 5){ 
         let scoreTag = '<span>OK! 😐, du hast '+ userScore +' von '+ questions.length +' Punkten erreicht</span>';
         scoreText.innerHTML = scoreTag;
